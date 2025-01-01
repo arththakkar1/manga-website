@@ -5,7 +5,7 @@ const nextConfig = {
     fallbackNode: true, 
   },
   images: {
-    domains: ['mangadex.org'],
+    domains: ['api.mangadex.org',"https://uploads.mangadex.org"],
   },
   eslint: {
     ignoreDuringBuilds: true,
