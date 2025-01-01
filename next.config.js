@@ -4,6 +4,9 @@ const nextConfig = {
   experimental: {
     fallbackNode: true, 
   },
+  images: {
+    domains: ['mangadex.org'],
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
